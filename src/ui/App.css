@@ -1,0 +1,31 @@
+.App-container {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: stretch;
+  font-size: 14px;
+  color: white;
+}
+.App-leftPane {
+  width: 240px;
+  background: #282c34;
+}
+.App-rightPane {
+  width: 570px;
+  background: #fdfdfd;
+}
+.App-separator-left {
+  width: 12px;
+  background: #fdfdfd;
+  box-shadow: 6px 0px 6px -1px rgba(0,0,0,0.25) inset;
+}
+.App-separator-right {
+  width: 12px;
+  background: #fdfdfd;
+  box-shadow: -6px 0px 6px -1px rgba(0,0,0,0.25) inset;
+}
+.App-link {
+  color: #61dafb;
+}

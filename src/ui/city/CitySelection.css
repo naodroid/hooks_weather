@@ -1,0 +1,62 @@
+.City-root {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: stretch;
+    padding: 16px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.City-text-container {
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+}
+.City-textbox {
+    background: #e8e8e8;
+    border: 1px solid #aeaeae;
+    font-size: 16px;
+    height: 32px;
+    margin: 2px 8px;
+}
+.City-underline {
+    background: #e8e8e8;
+    height: 1px;
+    margin: 2px 0px;
+}
+
+.City-list-container {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-start;
+}
+.City-list-cell {
+    display: flex;
+    flex-direction: column;
+    align-items: strech;
+    justify-content: center;
+    color: #e8e8e8;
+}
+.City-list-selected {
+    color: #e87828;
+}
+.City-list-cell:hover {
+    color: #61dafb;
+}
+.City-list-cell > .name {
+    margin-top: 8px;
+    font-size: 18px;
+}
+.City-list-cell > .coords {
+    font-size: 11px;
+    text-align: right;
+}
+
+.City-list-cell > .separator {
+    background: #7e7e7e;
+    height: 1px;
+    margin-top: 8px;
+}
+
+
