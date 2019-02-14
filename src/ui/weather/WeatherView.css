@@ -5,6 +5,13 @@
     justify-content: flex-start;
     overflow: scroll;
 }
+.weather-city-area {
+    border-bottom: 1px solid #7e7e7e;
+    font-size: 26px;
+    font-weight: bold;
+    color: #282828;
+    margin: 8px 8px 0px;
+}
 .weather-card {
     margin: 16px;
     background: #fafafa;

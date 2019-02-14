@@ -23,8 +23,11 @@ export function WeatherView(props: any) {
     const renderCard = (l : WeatherChildInfo[], index: number) => {
         return (<WeatherCard weatherList={l} key={index}/>)
     }
+    const cityName = (city != null) ? city.name : ""
+
     return (
         <div>
+            <div className="weather-city-area"> {cityName} </div>
             { list.map(renderCard) }
         </div>
     )
@@ -75,11 +78,6 @@ function groupWeatherByDate(info: WeatherChildInfo[]): WeatherChildInfo[][] {
     }
     return result
 }
-//convert F to C
-function fahrenToCelcius(fahren: number): number {
-    return (fahren - 32) * 5 / 9
-}
-
 function dtToMMDD(dt: number) : string {
     const d = new Date(dt * 1000)
     const month = d.getMonth() + 1;

@@ -1,8 +1,9 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './App.css';
 import { CitySelection } from './city/CitySelection';
 import { City } from '../entity/WeatherEntities';
 import { WeatherView } from './weather/WeatherView';
+import { Weather1day } from '../entity/Weather1day';
 
 
 function App() {

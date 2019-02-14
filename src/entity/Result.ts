@@ -15,7 +15,7 @@ export default class Result<T> {
     static error<T>(e: Error): Result<T> {
         return new Result<T>(null, e)
     }
-    static empty<T>() {
+    static empty<T>() : Result<T> {
         return new Result<T>(null, null)
     }
 }
