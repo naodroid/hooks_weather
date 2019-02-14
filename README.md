@@ -15,11 +15,10 @@ example
 REACT_APP_API_KEY="YOUR_KEY"
 ```
 
-## craete city list
+## create city list
 
-For reducing json size, I filtered city.json, japan only.
+For reducing json size, filter city.json as japan only.
 
-0. install python3
 1. download all cities from [Open weather](http://bulk.openweathermap.org/sample/), `citiy.list.json.gz`
 2. extract .gz and move it to `tools/` folder
 3. run python code in `tools/`, *python3 city_filter.py*
